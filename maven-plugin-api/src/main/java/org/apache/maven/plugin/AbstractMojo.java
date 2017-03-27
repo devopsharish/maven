@@ -84,7 +84,8 @@ import org.apache.maven.plugin.logging.SystemStreamLog;
  *   </tr>
  *   <tr>
  *      <td>execute</td>
- *      <td>@Execute ( phase=LifecyclePhase.&lt;phase&gt;, goal= "&lt;goal-name&gt;", lifecycle="&lt;lifecycle-id&gt;" )</td>
+ *      <td>@Execute
+ *       ( phase=LifecyclePhase.&lt;phase&gt;, goal= "&lt;goal-name&gt;", lifecycle="&lt;lifecycle-id&gt;" )</td>
  *      <td>No</td>
  *      <td>When this goal is invoked, it will first invoke a parallel lifecycle, ending at the given phase.
  *          If a goal is provided instead of a phase, that goal will be executed in isolation.
@@ -127,7 +128,8 @@ import org.apache.maven.plugin.logging.SystemStreamLog;
  *   </tr>
  * </table>
  * <p>This is only a small set of all the options. A complete list can be found at 
- * <a href="https://maven.apache.org/components/plugin-tools/maven-plugin-tools-annotations/index.html" target="_blank">Maven Plugin Tool for Annotations</a>. 
+ * <a href="https://maven.apache.org/components/plugin-tools/maven-plugin-tools-annotations/index.html" target="_blank">
+ * Maven Plugin Tool for Annotations</a>. 
  *
  * @see <a href="https://maven.apache.org/guides/plugin/guide-java-plugin-development.html" target="_blank">Guide to Developing Java Plugins</a>
  * @see <a href="https://maven.apache.org/guides/mini/guide-configuring-plugins.html" target="_blank">Guide to Configuring Plug-ins</a>
